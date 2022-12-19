@@ -66,11 +66,13 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Div")
                 .setHost(host,"xui_ui_div24")
+                .setLocked(true)
                 .setLeft("6.857142857142857em")
                 .setTop("28.19047619047619em")
                 .setWidth("30.552380952380954em")
                 .setHeight("15.314285714285715em")
                 .setHtml("<iframe width=\"400\" height=\"200\" src=\"https://tradinvgview.com\" name=\"iframe\" scrolling=\"no\">\n</iframe>\n")
+                .setIframeAutoLoad("<iframe width=\"400\" height=\"200\" src=\"https://tradinvgview.com\" name=\"iframe\" scrolling=\"no\"> </iframe>")
             );
             
             return children;
