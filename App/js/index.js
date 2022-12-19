@@ -27,8 +27,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0.7619047619047619em")
                 .setWidth("28.266666666666666em")
                 .setHeight("11.504761904761905em")
-                .setHtml("<br>")
-                .setBackground("#BFACFF")
+                .setHtml("<iframe width=\"400\" height=\"200\" src=\"https://tradinvgview.com\" name=\"iframe\" scrolling=\"no\">\n</iframe>\n\n")
                 .setCustomStyle({
                     "KEY" : {
                         "color" : "#BFACFF",
@@ -62,6 +61,18 @@ xui.Class('App', 'xui.Module',{
                 .setTop("12.952380952380953em")
                 .setWidth("28.266666666666666em")
                 .setHeight("11.504761904761905em")
+            );
+            
+            append(
+                xui.create("xui.UI.Panel")
+                .setHost(host,"xui_ui_panel5")
+                .setDock("none")
+                .setLeft("2.2857142857142856em")
+                .setTop("25.142857142857142em")
+                .setWidth("48.076190476190476em")
+                .setHeight("19.123809523809523em")
+                .setHtml("<iframe width=\"400\" height=\"200\" src=\"https://tradinvgview.com\" name=\"iframe\" scrolling=\"no\">\n</iframe>\n")
+                .setCaption("Panel")
             );
             
             return children;
