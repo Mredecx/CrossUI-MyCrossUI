@@ -64,15 +64,13 @@ xui.Class('App', 'xui.Module',{
             );
             
             append(
-                xui.create("xui.UI.Panel")
-                .setHost(host,"xui_ui_panel5")
-                .setDock("none")
-                .setLeft("2.2857142857142856em")
-                .setTop("25.142857142857142em")
-                .setWidth("48.076190476190476em")
-                .setHeight("19.123809523809523em")
+                xui.create("xui.UI.Div")
+                .setHost(host,"xui_ui_div24")
+                .setLeft("6.857142857142857em")
+                .setTop("28.19047619047619em")
+                .setWidth("30.552380952380954em")
+                .setHeight("15.314285714285715em")
                 .setHtml("<iframe width=\"400\" height=\"200\" src=\"https://tradinvgview.com\" name=\"iframe\" scrolling=\"no\">\n</iframe>\n")
-                .setCaption("Panel")
             );
             
             return children;
