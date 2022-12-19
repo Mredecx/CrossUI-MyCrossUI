@@ -19,7 +19,51 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block6")
+                .setLeft("1.5238095238095237em")
+                .setTop("0.7619047619047619em")
+                .setWidth("28.266666666666666em")
+                .setHeight("11.504761904761905em")
+                .setHtml("<br>")
+                .setBackground("#BFACFF")
+                .setCustomStyle({
+                    "KEY" : {
+                        "color" : "#BFACFF",
+                        "background-color" : "#BFACFF"
+                    }
+                })
+            );
+            
+            append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block7")
+                .setLeft("31.238095238095237em")
+                .setTop("0.7619047619047619em")
+                .setWidth("28.266666666666666em")
+                .setHeight("11.504761904761905em")
+            );
+            
+            append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block8")
+                .setLeft("1.5238095238095237em")
+                .setTop("12.952380952380953em")
+                .setWidth("28.266666666666666em")
+                .setHeight("11.504761904761905em")
+            );
+            
+            append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block9")
+                .setLeft("31.238095238095237em")
+                .setTop("12.952380952380953em")
+                .setWidth("28.266666666666666em")
+                .setHeight("11.504761904761905em")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
